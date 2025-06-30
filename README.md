@@ -1,6 +1,6 @@
 
 
-# 🐣 Poultry Disease Identifier
+# 🐣Transfer-Learning-Based-Classification-of-Poultry-Diseases-for-Enhanced-Health-Management 
 
 A deep learning–based web application that identifies common poultry diseases such as **Coccidiosis**, **Salmonella**, **Newcastle Disease**, or **Healthy** from chicken feces images using a custom-trained **MobileNetV2** model. The application is built using **Streamlit** and **TensorFlow**.
 
