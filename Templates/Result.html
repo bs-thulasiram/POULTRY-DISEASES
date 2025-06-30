@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
+  <div class="flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded shadow-md w-full max-w-md text-center">
+      <h1 class="text-2xl font-bold text-green-600 mb-4">Prediction Result</h1>
+      
+      <p class="text-lg font-semibold mb-2">Predicted Disease:</p>
+      <p class="text-xl text-blue-700 font-bold mb-4">{{ prediction }}</p>
+      
+      <img src="{{ image_path }}" alt="Uploaded Image" class="w-full rounded shadow mb-4">
+
+      <a href="/" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+        Predict Another
+      </a>
+    </div>
+  </div>
+</body>
+</html>
