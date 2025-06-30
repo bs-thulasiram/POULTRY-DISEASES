@@ -34,10 +34,12 @@ poultry-diseases-identifier/
 ├── app.py                   # Main Streamlit application
 ├── README.md                # Project documentation
 ├── requirements.txt         # Python dependencies
-├── model/
-│   └── mobilenetV2/
-│       └── mobilenetv2.h5   # Pre-trained Keras model
-
+├── static/
+│   └── uploaded/
+│       └── (uploaded images go here)
+├── templates/
+│   ├── index.html
+│   └── result.html
 ````
 
 ---
